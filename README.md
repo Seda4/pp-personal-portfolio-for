@@ -14,7 +14,7 @@
     </header>
     <section id="about">
         <h2>About Me</h2>
-        <p>Hello! I am [Your Name], a web developer and designer.</p>
+        <p>Hello! I am Seda Kaplan, a web developer and designer.</p>
     </section>
     <section id="skills">
         <h2>Skills</h2>
@@ -28,15 +28,15 @@
     <section id="contact">
         <h2>Contact</h2>
         <form>
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="Your Message" required></textarea>
+            <input type="text" placeholder="Seda Kaplan" required>
+            <input type="email" placeholder="seda_kaplan4@hotmail.com" required>
+            <textarea placeholder="This is my Github" required></textarea>
             <button type="submit">Send</button>
         </form>
     </section>
     <footer>
-        <a href="https://www.linkedin.com/in/[your-username]" target="_blank">LinkedIn</a>
-        <a href="https://github.com/[your-username]" target="_blank">GitHub</a>
+        <a href="[https://www.linkedin.com/in/[your-username]](https://www.linkedin.com/in/seda-kaplan-404529344/)" target="_blank">LinkedIn</a>
+        <a href="https://[github.com/[your-username]](https://github.com/Seda4/pp-personal-portfolio-for)" target="_blank">GitHub</a>
         <a href="https://[your-project-link]" target="_blank">Live Project</a>
     </footer>
 </body>
