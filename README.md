@@ -35,8 +35,8 @@
         </form>
     </section>
     <footer>
-        <a href="[https://www.linkedin.com/in/[your-username]](https://www.linkedin.com/in/seda-kaplan-404529344/)" target="_blank">LinkedIn</a>
-        <a href="https://[github.com/[your-username]](https://github.com/Seda4/pp-personal-portfolio-for)" target="_blank">GitHub</a>
+        <a href="(https://www.linkedin.com/in/seda-kaplan-404529344/)" target="_blank">LinkedIn</a>
+        <a href="(https://github.com/Seda4)" target="_blank">GitHub</a>
         <a href="https://[your-project-link]" target="_blank">Live Project</a>
     </footer>
 </body>
