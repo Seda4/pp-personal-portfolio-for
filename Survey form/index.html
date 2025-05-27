@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the external CSS file -->
+</head>
+<body>
+
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thanks for taking the time to help us improve!</p>
+
+    <form id="survey-form">
+        <!-- Name -->
+        <label id="name-label" for="name">Name:
+            <input id="name" name="name" type="text" placeholder="Enter your name" required>
+        </label>
+
+        <!-- Email -->
+        <label id="email-label" for="email">Email:
+            <input id="email" name="email" type="email" placeholder="Enter your email" required>
+        </label>
+
+        <!-- Age -->
+        <label id="number-label" for="number">Age:
+            <input id="number" name="age" type="number" min="15" max="130" placeholder="Enter your age" required>
+        </label>
+
+        <!-- Dropdown -->
+        <label for="dropdown">Which option best describes your current role?
+            <select id="dropdown" name="options" required>
+                <option value="">Select one</option>
+                <option value="1">Student</option>
+                <option value="2">Full Time Job</option>
+                <option value="3">Prefer not to say</option>
+                <option value="4">Other</option>
+            </select>
+        </label>
+
+        <!-- Radio Buttons -->
+        <fieldset>
+            <legend>Would you recommend this course to a friend?</legend>
+            <label>
+                <input type="radio" name="recommend" value="definitely" required> Definitely
+            </label>
+            <label>
+                <input type="radio" name="recommend" value="maybe"> Maybe
+            </label>
+            <label>
+                <input type="radio" name="recommend" value="not sure"> Not sure
+            </label>
+        </fieldset>
+
+        <!-- Checkboxes -->
+        <p>What would you like to see improved? (Select all that apply)</p>
+        <label>
+            <input type="checkbox" name="improvements" value="front-end"> Front-end Projects
+        </label>
+        <label>
+            <input type="checkbox" name="improvements" value="back-end"> Back-end Projects
+        </label>
+        <label>
+            <input type="checkbox" name="improvements" value="data"> Data Visualization
+        </label>
+        <label>
+            <input type="checkbox" name="improvements" value="challenges"> Challenges
+        </label>
+
+        <!-- Comments -->
+        <label for="comments">Any comments or suggestions?
+            <textarea id="comments" name="comments" placeholder="Enter your comment here..."></textarea>
+        </label>
+
+        <!-- Submit Button -->
+        <button type="submit" id="submit">Submit</button>
+    </form>
+
+</body>
+</html>
