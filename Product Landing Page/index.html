@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css" />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+    crossorigin="anonymous"
+  />
+  <title>Piano Page</title>
+</head>
+<body>
+  <div id="page-wrapper">
+    <header id="header">
+      <div class="logo">
+        <img
+          id="header-img"
+          src="https://example.com/your-piano-logo.png"
+          alt="Piano Logo"
+        />
+      </div>
+
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#features">Features</a></li>
+          <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+          <li><a class="nav-link" href="#pricing">Pricing</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="hero">
+      <h2>Handcrafted Pianos</h2>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input
+          name="email"
+          id="email"
+          type="email"
+          placeholder="Enter your email address"
+          required
+        />
+        <input id="submit" type="submit" value="Get Started" class="btn" />
+      </form>
+    </section>
+
+    <div class="container">
+      <section id="features">
+        <div class="grid">
+          <div class="icon"><i class="fa fa-3x fa-music"></i></div>
+          <div class="desc">
+            <h2>Premium Materials</h2>
+            <p>Our pianos are crafted from the finest wood and keys.</p>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+          <div class="desc">
+            <h2>Fast Shipping</h2>
+            <p>We ensure your piano reaches your address as quickly as possible.</p>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="icon"><i class="fa fa-3x fa-check-circle"></i></div>
+          <div class="desc">
+            <h2>Quality Assurance</h2>
+            <p>Every piano is carefully checked before delivery.</p>
+          </div>
+        </div>
+      </section>
+      <section id="how-it-works">
+        <iframe
+          id="video"
+          height="315"
+          src="https://www.youtube-nocookie.com/embed/example-video-url"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <section id="pricing">
+        <div class="product" id="grand">
+          <div class="level">Grand Piano</div>
+          <h2>£5000</h2>
+          <ol>
+            <li>Exceptional sound quality.</li>
+            <li>Beautiful design.</li>
+            <li>Long-lasting durability.</li>
+          </ol>
+          <button class="btn">Select</button>
+        </div>
+        <div class="product" id="upright">
+          <div class="level">Upright Piano</div>
+          <h2>£3000</h2>
+          <ol>
+            <li>High-quality sound.</li>
+            <li>Minimalist design.</li>
+            <li>Affordable price.</li>
+          </ol>
+          <button class="btn">Select</button>
+        </div>
+        <div class="product" id="digital">
+          <div class="level">Digital Piano</div>
+          <h2>£1200</h2>
+          <ol>
+            <li>Plays like a traditional piano.</li>
+            <li
